@@ -1,5 +1,8 @@
 class ShowsController < ApplicationController
-  before_action :set_show, only: [:show, :edit, :update, :destroy]
+    before_action :set_show, only: [:show, :edit, :update, :destroy, :book]
+    
+    #On saute une étape de sécurité si on appele book en JSON
+    
 
   # GET /shows
   # GET /shows.json
