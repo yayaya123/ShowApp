@@ -1,0 +1,12 @@
+#slideshow {
+	width:490px;
+	height:372px;
+	background-color:lightgrey;
+	margin:5px;
+	left:50px;
+	top:50px;
+}
+
+#slideshow img {
+	margin:10px;
+}

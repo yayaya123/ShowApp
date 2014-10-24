@@ -1,2 +1,28 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SlideShow du boubou</title>
+
+<script>
+   $(document).ready(function(){
+    $("#slideshow").cycle({
+      fx: "scrollDown",
+      #easing: "easeOutÒBounce", //utilise le plugin easing.js
+      delay: -2000
+    });
+  }); 
+</script>
+
+<body>
+<div id="slideshow">
+  <%= image_tag("IMG_1305.JPG", :height=>352, :width=>470) %>
+  <%= image_tag("IMG_1349.JPG", :height=>352, :width=>470) %>
+  <%= image_tag("IMG_1392.JPG", :height=>352, :width=>470) %>
+
+</div>
+
+
+
+
+</body>
+</html>
