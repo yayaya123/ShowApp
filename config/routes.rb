@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'home/index'
+  root 'home#index'
+
   resources :shows
 
   post 'shows/:id/book' => 'shows#book'
