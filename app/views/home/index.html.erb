@@ -3,26 +3,19 @@
 <head>
   <title>SlideShow du boubou</title>
 
-<script>
-   $(document).ready(function(){
-    $("#slideshow").cycle({
-      fx: "scrollDown",
-      #easing: "easeOutÒBounce", //utilise le plugin easing.js
-      delay: -2000
-    });
-  }); 
-</script>
-
 <body>
-<div id="slideshow">
+  <div id="slideshow">
+  <%= image_tag("photo-1.JPG", :height=>352, :width=>470) %>
   <%= image_tag("IMG_1305.JPG", :height=>352, :width=>470) %>
   <%= image_tag("IMG_1349.JPG", :height=>352, :width=>470) %>
   <%= image_tag("IMG_1392.JPG", :height=>352, :width=>470) %>
+  </div>
 
-</div>
-
-
-
-
+  <div id="test">
+  <%= image_tag("IMG_1392.JPG", :height=>352, :width=>470) %>
+  <%= image_tag("photo-1.JPG", :height=>352, :width=>470) %>
+  <%= image_tag("IMG_1305.JPG", :height=>352, :width=>470) %>
+  <%= image_tag("IMG_1349.JPG", :height=>352, :width=>470) %>
+  </div>
 </body>
 </html>

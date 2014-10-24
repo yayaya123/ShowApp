@@ -5,8 +5,23 @@
 	margin:5px;
 	left:50px;
 	top:50px;
+	position:absolute;
+}
+
+#test {
+	width:490px;
+	height:372px;
+	background-color:lightgrey;
+	margin:5px;
+	left:50px;
+	top:450px;
+	position:absolute;
 }
 
 #slideshow img {
+	margin:10px;
+}
+
+#test img {
 	margin:10px;
 }
