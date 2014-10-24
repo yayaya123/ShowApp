@@ -19,3 +19,25 @@
       
     });
   }); 
+
+  $(document).ready(function(){
+  $("button").click(function(){
+    $("#slideshow").animate({
+      left:'250px',
+      opacity:'0.8',
+      //height:'150px',
+      //width:'150px'
+    });
+  });
+});
+
+    $(document).ready(function(){
+  $("#slideshow").mouseenter(function(){
+    $("#slideshow").animate({
+      left:'50px',
+      opacity:'1',
+      //height:'150px',
+      //width:'150px'
+    });
+  });
+});
