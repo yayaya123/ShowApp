@@ -20,7 +20,7 @@
     });
   }); 
 
-  $(document).ready(function(){
+$(document).ready(function(){
   $("button").click(function(){
     $("#slideshow").animate({
       left:'250px',
@@ -31,7 +31,8 @@
   });
 });
 
-    $(document).ready(function(){
+
+$(document).ready(function(){
   $("#slideshow").mouseenter(function(){
     $("#slideshow").animate({
       left:'50px',
