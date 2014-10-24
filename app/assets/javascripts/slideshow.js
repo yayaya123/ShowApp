@@ -3,7 +3,7 @@
     $("#slideshow").cycle({
       fx: "scrollDown", 
       //easing: "easeOutÒBounce",
-      random: 1,
+      //random: 1,
       delay: -200,
       timeout: 1000,
       speed:200
