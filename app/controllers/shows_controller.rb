@@ -94,7 +94,7 @@ class ShowsController < ApplicationController
 
     # On ajoute les paramètres qu'on va envoyer avec le booking
     def booking_params
-      params.require(:booking).permit(:user_name, :seats)
+      params.require(:booking).permit(:user_name, :number)
     end
 end
 
